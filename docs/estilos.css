@@ -91,12 +91,15 @@ table, th, td {
 
 }
 
+th.word {
+  width: 30%
+}
 
-th.word, th.meanning {
+th.meanning {
   width: 20%
 }
 th.example {
-  width: 60%; /* Not necessary, since only 70% width remains */
+  width: 50%; /* Not necessary, since only 70% width remains */
 }
 
 
