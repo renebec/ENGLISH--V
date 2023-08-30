@@ -97,10 +97,24 @@ table, th, td {
   border-collapse: collapse;
   text-align: center;
   padding: 5px;
-  white-space:no-wrap;
+
   table-layout: fixed;
   word-wrap: break-word;
   word-break:break-all;
+}
+
+th.word {
+  width: 30%;
+  table-layout: fixed;
+}
+
+th.meaning {
+  width: 30%;
+  table-layout: fixed;
+}
+th.example {
+  width: 40%; /* Not necessary, since only 70% width remains */
+  table-layout: fixed;;
 }
 
 ,table2, td {
@@ -119,16 +133,7 @@ table, th, td {
 word-wrap: break-word
 
 
-th.word {
-  width: 30%
-}
 
-th.meaning {
-  width: 20%
-}
-th.example {
-  width: 50%; /* Not necessary, since only 70% width remains */
-}
 
 
 
