@@ -86,16 +86,44 @@ table, th, td {
   border-collapse: collapse;
   text-align: center;
   padding: 5px;
-  white-space:nowrap;
-  table-layout: fixed
+  white-space:no-wrap;
 
 }
+
+.table1, th, td {
+  border:1px solid white;
+  font-family: courier;
+  font-size: 21px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  white-space:no-wrap;
+  table-layout: fixed;
+  word-wrap: break-word;
+  word-break:break-all;
+}
+
+,table2, td {
+    border:1px solid white;
+  font-family: courier;
+  font-size: 21px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  white-space:no-wrap;
+  table-layout: fixed;
+     word-wrap: break-word;
+  word-break:break-all;
+}
+
+word-wrap: break-word
+
 
 th.word {
   width: 30%
 }
 
-th.meanning {
+th.meaning {
   width: 20%
 }
 th.example {
