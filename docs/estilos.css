@@ -116,8 +116,26 @@ th.meaning {
 }
 th.example {
   width: 40%; /* Not necessary, since only 70% width remains */
-  table-layout: fixed;;
+  table-layout: fixed;
 }
+
+td.take {
+  width: 25%; /* Not necessary, since only 70% width remains */
+  table-layout: fixed;
+}
+td.assist {
+  width: 25%; /* Not necessary, since only 70% width remains */
+  table-layout: fixed;
+}
+td.leave {
+  width: 25%; /* Not necessary, since only 70% width remains */
+  table-layout: fixed;
+}
+td.use {
+  width: 25%; /* Not necessary, since only 70% width remains */
+  table-layout: fixed;
+}
+
 
 ,table2, td {
     border:1px solid white;
