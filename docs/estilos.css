@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  width:98%;
+  width:100%;
 }
 
 header {
@@ -13,8 +13,8 @@ header {
 
 body {
   font-family: sans-serif;
-  padding-left:7.5%;
-  padding-right:7%;
+  padding-left:5%;
+  padding-right:5%;
   background-color:#424242;
   font-size:24px;
   text-align:justify;
