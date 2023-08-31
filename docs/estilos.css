@@ -137,7 +137,32 @@ td.use {
 }
 
 
-,table2, td {
+.table2, td {
+    border:1px solid white;
+  font-family: courier;
+  font-size: 21px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  white-space:no-wrap;
+  table-layout: fixed;
+     word-wrap: break-word;
+  word-break:break-all;
+}
+
+.table3, td {
+    border:1px solid white;
+  font-family: courier;
+  font-size: 21px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  white-space:no-wrap;
+  table-layout: fixed;
+     word-wrap: break-word;
+  word-break:break-all;
+}
+.table4, td {
     border:1px solid white;
   font-family: courier;
   font-size: 21px;
