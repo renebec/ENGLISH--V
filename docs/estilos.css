@@ -28,7 +28,7 @@ section {
   padding-bottom:2%;
   text-align: justify;
   width: 98%;
-  background-color: "black";
+
 }
 
 a{
@@ -99,7 +99,6 @@ table, th, td {
   border-collapse: collapse;
   text-align: center;
   padding: 5px;
-
   table-layout: fixed;
   word-wrap: break-word;
   word-break:break-all;
@@ -162,6 +161,7 @@ td.use {
      word-wrap: break-word;
   word-break:break-all;
 }
+
 .table4, td {
     border:1px solid white;
   font-family: courier;
@@ -219,7 +219,6 @@ td.tres {
  }
 
 td.cuatro {
-
  table-layout: fixed;
  }
 
@@ -245,11 +244,11 @@ td.cuatro {
   border-radius:5%;
 }
 
-td.infopraphic1 {
+td.infographic1 {
       vertical-align:top;
-]
+}
 
-#toc_container {
+toc_container {
     background: #6A696A none repeat scroll 0 0;
     border: 1px solid #424242;
     display: table;
@@ -258,12 +257,12 @@ td.infopraphic1 {
     padding: 1px;
     width:auto;
     text-align:left;
+    text-decoration:none;
 }
 
 .toc_title {
     font-weight: 700;
     text-align: left;
-    color:#424242;
     text-indent: 40px;
 }
 
@@ -275,18 +274,19 @@ td.infopraphic1 {
 
 li a {
   display: block;
-  color: #A4E11A;
+  color: #B9FC1C;
   text-decoration: none;
 }
 
 
-
 li a.active {
-  background-color: #BBFA27;
-  }
+  background-color: #B9FC1C;
+text-decoration: none;
+}
+
 
 li a:hover:not(.active) {
-  background-color: #BBFA27;
+  background-color: #B9FC1C;
   color: white;
 }
 
