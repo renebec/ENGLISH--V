@@ -214,7 +214,7 @@ td.dos {
  }
 
 td.tres {
- width:10%;
+ width:7%;
  table-layout: fixed;
  }
 
@@ -243,8 +243,11 @@ td.cuatro {
     #word-wrap: break-word;
   word-break:keep-all;
   border-radius:5%;
-  vertical-align:top;
 }
+
+td.infopraphic1 {
+      vertical-align:top;
+]
 
 #toc_container {
     background: #6A696A none repeat scroll 0 0;
