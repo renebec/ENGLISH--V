@@ -223,9 +223,31 @@ td.cuatro {
  table-layout: fixed;
  }
 
+.rectangle {
+  height: 200px;
+  width: 85%;
+  align:center;
+  background-color: white;
+  }
+
+
+.table6, td, th, tr {
+    border:0px;
+  font-family: courier;
+  font-size: 21px;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 5px;
+  white-space:now-wrap;
+  table-layout: fixed;
+    #word-wrap: break-word;
+  word-break:keep-all;
+  border-radius:5%;
+  vertical-align:top;
+}
 
 #toc_container {
-    background: #8A888A none repeat scroll 0 0;
+    background: #6A696A none repeat scroll 0 0;
     border: 1px solid #424242;
     display: table;
     font-size: 95%;
