@@ -185,17 +185,17 @@ td.restaurant {
 
 word-wrap: break-word
 
-.table5, td, th {
+.table5, td, th, tr {
     border:1px solid white;
   font-family: courier;
   font-size: 21px;
   border-collapse: collapse;
   text-align: left;
   padding: 5px;
-  white-space:no-wrap;
+  white-space:now-wrap;
   table-layout: fixed;
-    word-wrap: break-word;
-  word-break:normal;
+    #word-wrap: break-word;
+  word-break:keep-all;
 }
 
 #tr:nth-child(even) {
