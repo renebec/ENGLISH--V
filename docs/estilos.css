@@ -248,8 +248,8 @@ td.infographic1 {
       vertical-align:top;
 }
 
-toc_container {
-    background: #6A696A none repeat scroll 0 0;
+#toc_container {
+    background: #292828 none repeat scroll 0 0;
     border: 1px solid #424242;
     display: table;
     font-size: 95%;
