@@ -185,10 +185,43 @@ td.restaurant {
 
 word-wrap: break-word
 
+.table5, td, th {
+    border:1px solid white;
+  font-family: courier;
+  font-size: 21px;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 5px;
+  white-space:no-wrap;
+  table-layout: fixed;
+    word-wrap: break-word;
+  word-break:normal;
+}
+
+#tr:nth-child(even) {
+  #background-color: #D6EEEE;
+#}
 
 
+td.uno {
+ width: 36%;
+ table-layout: fixed;
+ }
 
+td.dos {
+ width: 15%;
+ table-layout: fixed;
+ }
 
+td.tres {
+ width:10%;
+ table-layout: fixed;
+ }
+
+td.cuatro {
+
+ table-layout: fixed;
+ }
 
 
 #toc_container {
