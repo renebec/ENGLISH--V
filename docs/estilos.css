@@ -230,7 +230,7 @@ td.cuatro {
   }
 
 
-.table6, td, th, tr {
+.table6{
     border:0px;
   font-family: courier;
   font-size: 21px;
