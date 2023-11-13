@@ -19,6 +19,7 @@ body {
   font-size:24px;
   text-align:justify;
   margin: 0;
+  word-break:keep all;
 
 }
 
@@ -183,7 +184,7 @@ td.restaurant {
   table-layout: fixed;
 }
 
-word-wrap: break-word
+
 
 .table5, td, th, tr {
     border:1px solid white;
@@ -230,7 +231,7 @@ td.cuatro {
   }
 
 
-.table6{
+.table6, th, td, tr {
     border:0px;
   font-family: courier;
   font-size: 21px;
@@ -239,9 +240,9 @@ td.cuatro {
   padding: 5px;
   white-space:now-wrap;
   table-layout: fixed;
-    #word-wrap: break-word;
   word-break:keep-all;
   border-radius:5%;
+
 }
 
 td.infographic1 {
